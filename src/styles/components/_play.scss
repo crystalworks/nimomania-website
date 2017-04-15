@@ -1,0 +1,72 @@
+.play {
+    @include flex-block_center;
+    @include margin-top;
+
+    flex-direction: column;
+    
+    &__title {
+        margin: 20px 0;
+        margin-bottom: 30px;
+    }
+    
+    &__banner {
+        display: inline-block;
+        min-height: 54px;
+        position: relative;
+        padding: 8px;
+        font-size: 3rem;
+        line-height: 1.2;
+        text-transform: uppercase;
+        background: $black;
+        color: $white;
+
+        &:before {
+            @include flag;           
+            
+            left: -54px;            
+            border-left-color: transparent;           
+        }
+
+        &:after {
+            @include flag;    
+            
+            right: -54px;
+            border-right-color: transparent;
+        }
+
+        &_small {
+            min-height: 30px;
+            padding: 5px;
+            font-size: 1.6rem;
+            line-height: 1.2;
+            text-transform: uppercase;          
+        }
+
+        &_small:before {
+            @include flag_small;  
+            
+            left: -30px;
+        }
+
+        &_small:after {
+            @include flag_small;            
+            
+            right: -30px;
+        }
+    }
+
+    &__logo {
+        @include flex-block_center;
+        
+        flex-direction: column;
+    }
+
+    &__link {
+        display: inline-block;
+
+        img {
+            width: 120px;
+            height: 120px;
+        }
+    }
+}

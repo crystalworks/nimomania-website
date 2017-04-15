@@ -1,0 +1,23 @@
+.page-footer {
+    background: $black;
+    
+    &__copyright {
+       @include flex-block_center;
+
+       padding: 15px;
+       padding-top: 50px;
+       text-transform: uppercase;
+       color: $white;    
+    }
+}
+
+.page-footer-logo {
+    @include flex-block_center;
+
+    padding: 20px 0;
+    padding-bottom: 80px;
+
+    &__item {
+        padding: 20px;
+    }
+}

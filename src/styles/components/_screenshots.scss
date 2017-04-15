@@ -1,0 +1,13 @@
+.screenshots {
+    @include flex-block;
+    @include margin-top;
+    @include row;
+
+    flex-wrap: wrap;
+    margin: 20px 0;
+    margin-bottom: 50px;
+
+    &__item {
+        @include col-6;
+    }
+}

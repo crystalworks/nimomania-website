@@ -1,0 +1,23 @@
+.page-header__inner {
+    @include flex-block;
+    
+    padding: 10px 0;
+    line-height: $heading-line-height;
+    background: $background-header;
+}
+
+.logo {
+    
+    &__link {
+        @include menu-link;  
+        
+        font-size: 1.8rem;
+        font-weight: $font-weight-bold;   
+    }
+}
+
+.page-menu {
+    &__link {
+        @include menu-link;
+    }
+}

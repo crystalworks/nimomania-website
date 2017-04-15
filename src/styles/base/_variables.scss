@@ -1,0 +1,57 @@
+// Font Stack
+$lato: "Lato", "Helvetica", "Arial", sans-serif;
+
+// Typography
+$base-font-family: $lato;
+$heading-font-family: $base-font-family;
+
+// Font Styles
+$base-font-style: normal;
+
+// Font Weights
+$font-weight-light: 300;
+$font-weigh-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$base-font-weight: $font-weight-light;
+
+// Font Sizes
+$base-font-size: 1.6rem;
+
+// Line Height
+$base-line-height: 1.87;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+
+// Colors
+$dark-gray: #424242;
+$anthracite: #212429;
+$charcoal: #464646;
+$medium-gray: #999;
+$light-gray: #ddd;
+$white: #fff;
+$black: #000;
+$copyright-black: #17191c; 
+$ghost-white: #f9f9fb;
+$white-smoke: #f7f7f7;
+$orange:#ec8e57;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $white;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: $white;
+$background-header: $black;
+
+// Animations
+$base-duration: 200ms;
+$base-timing: ease;

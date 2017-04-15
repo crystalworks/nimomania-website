@@ -1,0 +1,29 @@
+{
+  "name": "game-landing-page",
+  "version": "1.0.0",
+  "description": "A game landing page",
+  "author": "Yev Dyko <evgeny.dyko@gmail.com>",
+  "license": "MIT",
+  "main": "build.js",
+  "scripts": {
+    "start": "node ./build.js",
+    "production": "NODE_ENV=production node ./build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rolling-scopes-school/Crystalworks-game-team.git"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-autoprefixer": "^1.1.1",
+    "metalsmith-browser-sync": "^1.1.1",
+    "metalsmith-imagemin": "^4.0.0",
+    "metalsmith-layouts": "^1.8.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-sass": "^1.4.0"
+  }
+}
